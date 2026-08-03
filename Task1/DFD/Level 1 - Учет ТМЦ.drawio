@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="us5W6KRWF3o2Z6tiNpK3">
+    <mxGraphModel dx="1051" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-1" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity" value="Сотрудник склада" vertex="1">
+          <mxGeometry height="100" width="100" x="30" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-2" parent="t-qBWSXaYWDNzXKUwCxS-1" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" value="Id" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" as="geometry">
+            <mxPoint x="15" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-3" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity" value="Бухгалтер" vertex="1">
+          <mxGeometry height="100" width="100" x="30" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-4" parent="t-qBWSXaYWDNzXKUwCxS-3" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" value="Id" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" as="geometry">
+            <mxPoint x="15" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-5" parent="1" style="html=1;dashed=0;whiteSpace=wrap;strokeWidth=3;fillColor=none;rounded=1;align=right;" value="&lt;b&gt;3. Учёт ТМЦ&lt;/b&gt;" vertex="1">
+          <mxGeometry height="490" width="440" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-8" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" value="3.1. Приемка ТМЦ" vertex="1">
+          <mxGeometry height="50" width="140" x="380" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-10" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" value="3.2. Внесение данных" vertex="1">
+          <mxGeometry height="50" width="140" x="380" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-11" edge="1" parent="1" source="t-qBWSXaYWDNzXKUwCxS-8" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=25;exitPerimeter=0;" target="t-qBWSXaYWDNzXKUwCxS-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="620" y="220" as="sourcePoint" />
+            <mxPoint x="670" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-12" connectable="0" parent="t-qBWSXaYWDNzXKUwCxS-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Данные из накладной" vertex="1">
+          <mxGeometry relative="1" x="-0.08" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-13" edge="1" parent="1" source="t-qBWSXaYWDNzXKUwCxS-10" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=25;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ja0YiXSH86_Uxw0dDhFT-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="230" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-14" connectable="0" parent="t-qBWSXaYWDNzXKUwCxS-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Данные о ТМЦ" vertex="1">
+          <mxGeometry relative="1" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-15" edge="1" parent="1" source="Ja0YiXSH86_Uxw0dDhFT-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Ja0YiXSH86_Uxw0dDhFT-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="375" as="sourcePoint" />
+            <mxPoint x="450" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-16" connectable="0" parent="t-qBWSXaYWDNzXKUwCxS-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Обмен данными" vertex="1">
+          <mxGeometry relative="1" x="0.1385" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-17" edge="1" parent="1" source="t-qBWSXaYWDNzXKUwCxS-5" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=100;entryDy=32.5;entryPerimeter=0;" target="t-qBWSXaYWDNzXKUwCxS-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="650" as="sourcePoint" />
+            <mxPoint x="220" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-18" connectable="0" parent="t-qBWSXaYWDNzXKUwCxS-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Данные о движении ТМЦ" vertex="1">
+          <mxGeometry relative="1" x="-0.04" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-20" edge="1" parent="1" source="t-qBWSXaYWDNzXKUwCxS-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=100;exitDy=55;exitPerimeter=0;entryX=0.01;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;" target="t-qBWSXaYWDNzXKUwCxS-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="300" as="sourcePoint" />
+            <mxPoint x="220" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-qBWSXaYWDNzXKUwCxS-21" connectable="0" parent="t-qBWSXaYWDNzXKUwCxS-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Ввод данных" vertex="1">
+          <mxGeometry relative="1" x="-0.0499" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ja0YiXSH86_Uxw0dDhFT-1" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" value="1C Торговля и склад" vertex="1">
+          <mxGeometry height="80" width="165" x="367.5" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja0YiXSH86_Uxw0dDhFT-2" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" value="1C Бухгалтерия предприятия" vertex="1">
+          <mxGeometry height="80" width="160" x="367.5" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="qwAit2633tEpvePf_aUv-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;rounded=0;" value="&lt;ul&gt;&lt;li&gt;Шифрование базы данных&lt;/li&gt;&lt;li&gt;RBAC: Сотрудник склада (ввод данных), Бухгалтер (просмотр)&lt;/li&gt;&lt;li&gt;Защищенный канал&lt;/li&gt;&lt;li&gt;Логирование операций&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="560" y="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
